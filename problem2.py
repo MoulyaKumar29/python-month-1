@@ -1,5 +1,6 @@
-num = int(input("Enter the number: "))
+num = int(input("Enter a number: "))
 
-square = num ** 2
-
-print("Square: ", square)
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")

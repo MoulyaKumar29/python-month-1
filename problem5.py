@@ -1,6 +1,6 @@
-length = float(input("Enter length: "))
-width = float(input("Enter width: "))
+age = int(input("Enter your age: "))
 
-area = length * width
-
-print("Area:", area)
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")

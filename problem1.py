@@ -1,3 +1,8 @@
-a = 25
-b = 5
-print(a + b)
+num = int(input("Enter a number: "))
+
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")

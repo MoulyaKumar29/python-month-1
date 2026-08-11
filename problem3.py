@@ -1,5 +1,9 @@
-num = int(input("Enter the number: "))
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
-cube = num ** 3
-print("cube: ",cube)
-
+if num1 > num2:
+    print("First number is greater")
+elif num2 > num1:
+    print("Second number is greater")
+else:
+    print("Both numbers are equal")
