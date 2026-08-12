@@ -1,7 +1,7 @@
-marks = 85
+marks = 75
 
 if marks >= 90 or marks <= 40:
-    print("Eligible")
+    print("Eligibile")
 
 else:
     print("Not eligible")

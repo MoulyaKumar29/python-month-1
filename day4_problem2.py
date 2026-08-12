@@ -1,6 +1,6 @@
-marks = 85
+age = 15
 
-if marks >= 90 or marks <= 40:
+if age >= 18:
     print("Eligible")
 
 else:
