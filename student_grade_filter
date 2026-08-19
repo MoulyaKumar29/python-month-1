@@ -1,0 +1,9 @@
+students = ["Ravi", "Meena", "Suresh", "Anjali", "Kiran"]
+scores = [85, 42, 91, 67, 38]
+
+results = [
+    f"{name}: Pass" if score >= 50 else f"{name}: Fail"
+    for name, score in zip(students, scores)
+]
+
+print(results)
