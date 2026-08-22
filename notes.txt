@@ -1,0 +1,2 @@
+I am learning Python File Handling.
+File handling is useful.
