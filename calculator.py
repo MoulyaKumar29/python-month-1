@@ -1,7 +1,6 @@
-num = float(input("Enter the first number: "))
-num1 = float(input("Enter the second number: "))
+def add(a, b):
+    return a + b
 
-print(num + num1)
-print(num - num1)
-print(num * num1)
-print(num / num1)
+
+def multiply(a, b):
+    return a * b
